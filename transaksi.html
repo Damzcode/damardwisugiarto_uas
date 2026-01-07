@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Suki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Logo.jpg" alt="Logo Perpustakaan">
+            Perpustakaan Suki
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Form Transaksi Peminjaman Buku</h1>
+        <form id="transaksiForm" class="small-form">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama">
+            
+            <label for="judul">Judul Buku:</label>
+            <input type="text" id="judul" name="judul">
+            
+            <label for="tanggal">Tanggal Peminjaman:</label>
+            <input type="date" id="tanggal" name="tanggal">
+            
+            <button type="submit">Kirim Transaksi</button>
+        </form>
+        <p class="list"><a href="list-transaksi.html">Lihat List Transaksi</a></p><br><br><br>
+    </main>
+    <footer>
+        <p>&copy; 2023 Perpustakaan Suki.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
